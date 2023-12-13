@@ -1,0 +1,36 @@
+.userItem {
+
+  border-radius: 10px;
+  border-bottom: 1px solid #d8d8d8;
+
+  ion-item {
+    background-color: #fff;
+    padding: 10px 0;
+
+    ion-avatar {
+      margin-right: 1rem;
+      --border-radius: 4px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.2rem;
+
+      .name {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .email {
+        font-size: 0.9rem;
+        color: #7f7f7f;
+      }
+
+      .location {
+        font-size: 0.8rem;
+        color: #868686;
+      }
+    }
+  }
+}

@@ -1,8 +1,6 @@
 import {
   IonApp,
   IonRouterOutlet,
-  IonTabs,
-  IonTabBar,
   setupIonicReact,
 } from "@ionic/react";
 import { IonReactRouter } from '@ionic/react-router';
@@ -25,7 +23,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 // import './theme/variables.css';
-import { AppRoutes, BottomTabs, Loading } from './components';
+import { AppRoutes, Loading } from './components';
 import { Suspense } from "react";
 
 setupIonicReact();
