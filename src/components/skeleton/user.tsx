@@ -16,7 +16,7 @@ export const UsersSkeleton = ({count}: {count: number}) => {
         </IonListHeader>
 
         {[...Array(count)].map((_, index) => (
-          <IonItem key={index} style={{ backgroundColor: "#fff" }}>
+          <IonItem key={index} style={{ backgroundColor: "#fff", paddingLeft: '3.5rem' }}>
             <UserSkeleton />
           </IonItem>
         ))}
